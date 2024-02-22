@@ -1,0 +1,53 @@
+### Linux template
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### Laravel template
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+public/build
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+.env.backup
+.env.production
+Homestead.yaml
+Homestead.json
+/.vagrant
+/.phpunit.cache
+.phpunit.result.cache
+
+auth.json
+/.fleet
+/.idea
+/.vscode
+
+/.docker/mariadb/data
+/.docker/nginx/logs
+
+
